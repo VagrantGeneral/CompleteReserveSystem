@@ -1,0 +1,2 @@
+[2024/07/27-00:03:07.571705Z] INFO ProxyClient.cpp MySQL_TelRegister 56  : insert into user_info value(0,'18700000001','HHH','123456',CurDate()); : 
+[2024/07/27-00:03:07.572266Z] ERROR MySQLConn.cpp ExecuteSQL 14  : Can not execute  : Duplicate entry '18700000001' for key 'user_info.PRIMARY' : 

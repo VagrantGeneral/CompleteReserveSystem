@@ -6,6 +6,12 @@
 #include "MySQLConn.hpp"
 
 namespace DB {
+    struct LogInInFo {
+        std::string tel;
+        std::string name;
+        bool tag;
+    };
+
     class ProxyClient {
     private:
         std::unique_ptr<MySQLConn> mysql_conn;
@@ -39,7 +45,7 @@ namespace DB {
                                const std::string& name,
                                const std::string& pswd);
 
-        bool MySQL_Login(const std::string& tel, const std::string& pswd);
+        LogInInFo MySQL_Login(const std::string& tel, const std::string& pswd);
 
         
 

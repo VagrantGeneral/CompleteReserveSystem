@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/msys.dir/src/MainTest.cpp.o.d"
   "CMakeFiles/msys.dir/src/db/MySQLConn.cpp.o"
   "CMakeFiles/msys.dir/src/db/MySQLConn.cpp.o.d"
+  "CMakeFiles/msys.dir/src/db/ProxyClient.cpp.o"
+  "CMakeFiles/msys.dir/src/db/ProxyClient.cpp.o.d"
   "CMakeFiles/msys.dir/src/log/AppendFile.cpp.o"
   "CMakeFiles/msys.dir/src/log/AppendFile.cpp.o.d"
   "CMakeFiles/msys.dir/src/log/LogFile.cpp.o"

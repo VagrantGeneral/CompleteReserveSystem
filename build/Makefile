@@ -177,6 +177,30 @@ src/db/MySQLConn.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/msys.dir/build.make CMakeFiles/msys.dir/src/db/MySQLConn.cpp.s
 .PHONY : src/db/MySQLConn.cpp.s
 
+src/db/ProxyClient.o: src/db/ProxyClient.cpp.o
+.PHONY : src/db/ProxyClient.o
+
+# target to build an object file
+src/db/ProxyClient.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/msys.dir/build.make CMakeFiles/msys.dir/src/db/ProxyClient.cpp.o
+.PHONY : src/db/ProxyClient.cpp.o
+
+src/db/ProxyClient.i: src/db/ProxyClient.cpp.i
+.PHONY : src/db/ProxyClient.i
+
+# target to preprocess a source file
+src/db/ProxyClient.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/msys.dir/build.make CMakeFiles/msys.dir/src/db/ProxyClient.cpp.i
+.PHONY : src/db/ProxyClient.cpp.i
+
+src/db/ProxyClient.s: src/db/ProxyClient.cpp.s
+.PHONY : src/db/ProxyClient.s
+
+# target to generate assembly for a file
+src/db/ProxyClient.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/msys.dir/build.make CMakeFiles/msys.dir/src/db/ProxyClient.cpp.s
+.PHONY : src/db/ProxyClient.cpp.s
+
 src/log/AppendFile.o: src/log/AppendFile.cpp.o
 .PHONY : src/log/AppendFile.o
 
@@ -312,6 +336,9 @@ help:
 	@echo "... src/db/MySQLConn.o"
 	@echo "... src/db/MySQLConn.i"
 	@echo "... src/db/MySQLConn.s"
+	@echo "... src/db/ProxyClient.o"
+	@echo "... src/db/ProxyClient.i"
+	@echo "... src/db/ProxyClient.s"
 	@echo "... src/log/AppendFile.o"
 	@echo "... src/log/AppendFile.i"
 	@echo "... src/log/AppendFile.s"

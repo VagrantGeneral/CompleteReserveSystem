@@ -15,5 +15,4 @@ aux_source_directory(./src/db SRC_DB)
 
 add_executable(msys ${SRC_TEST} ${SRC_LOG} ${SRC_DB})
 
-#target_link_libraries(msys libpthread);
-#mysqlclient
+target_link_libraries(msys mysqlclient.so)

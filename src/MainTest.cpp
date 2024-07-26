@@ -11,6 +11,7 @@
 #include "Logger.hpp"
 #include "LogFile.hpp"
 #include "AppendFile.hpp"
+#include "ProxyClient.hpp"
 
 std::unique_ptr<LOG::LogFile> lfile;
 
@@ -25,15 +26,21 @@ void fileflush() {
 }
 
 int main() {
-    lfile.reset(new LOG::LogFile("/home/hankangkai/Project2/LogFile"));
+    lfile.reset(new LOG::LogFile("/home/hankangkai/Project2/bin/log/logfile"));
 
     LOG::Logger::setOutput(filewrite);
     LOG::Logger::setFlush(fileflush);
 
     LOG::Logger::setLogLevel(LOG::LOG_LEVEL::TRACE);
 
-    LOG_TRACE << "begin main";
-    LOG_INFO << "AAAAAAAAAAAAAAAAAAAAAAAAAA";
+    DB::ProxyClient client;
+    client.ConnectToMySQLSer();
+
+    if (client.MySQL_TelRegister("18700000001", "HHH", "123456")) {
+        std::cout << "Register Successful" << std::endl;
+        LOG_INFO << "Register Successful";
+    }
+
 
     return 0;
 }
