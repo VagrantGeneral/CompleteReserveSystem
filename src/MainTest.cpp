@@ -13,17 +13,9 @@
 #include "AppendFile.hpp"
 #include "ProxyClient.hpp"
 
-
-
-
-
-
-
-
-
-
-
-
+int main() {
+    std::cout << "fffff" << std::endl;
+}
 
 
 

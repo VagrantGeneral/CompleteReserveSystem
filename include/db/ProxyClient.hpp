@@ -4,6 +4,7 @@
 #include <string>
 #include <memory>
 #include "MySQLConn.hpp"
+#include "MyRedis.hpp"
 
 namespace DB {
     struct LogInInFo {
@@ -16,6 +17,8 @@ namespace DB {
     private:
         std::unique_ptr<MySQLConn> mysql_conn;
 
+        std::unique_ptr<MyRedis> myredis_conn;
+
     private:
         std::string mysqlSer_Ip;
 
@@ -26,6 +29,11 @@ namespace DB {
         std::string mysqlUserPasswd;
 
         std::string dbName;
+
+    private:
+        std::string redis_Ip;
+
+        int redis_Port;
 
 
     public:
@@ -48,7 +56,7 @@ namespace DB {
         LogInInFo MySQL_Login(const std::string& tel, const std::string& pswd);
 
         
-
+        
 
 
 

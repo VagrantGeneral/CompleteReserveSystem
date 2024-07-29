@@ -18,3 +18,4 @@ add_executable(msys ${SRC_TEST} ${SRC_LOG} ${SRC_DB})
 
 target_link_libraries(msys mysqlclient.so)
 target_link_libraries(msys libhiredis.so)
+target_link_libraries(msys libjsoncpp.so)

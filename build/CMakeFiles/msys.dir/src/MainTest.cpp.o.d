@@ -184,4 +184,8 @@ CMakeFiles/msys.dir/src/MainTest.cpp.o: \
  /usr/include/mysql/client_plugin.h /usr/include/c++/9/stdlib.h \
  /usr/include/mysql/plugin_auth_common.h \
  /usr/include/mysql/mysql_version.h /usr/include/mysql/mysql_time.h \
- /usr/include/mysql/errmsg.h
+ /usr/include/mysql/errmsg.h \
+ /home/hankangkai/Project2/./include/db/MyRedis.hpp \
+ /usr/local/include/hiredis/hiredis.h /usr/local/include/hiredis/read.h \
+ /usr/include/x86_64-linux-gnu/sys/time.h \
+ /usr/local/include/hiredis/sds.h /usr/local/include/hiredis/alloc.h

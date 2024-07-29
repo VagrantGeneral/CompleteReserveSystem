@@ -1,5 +1,6 @@
 
 #include <sstream>
+#include <jsoncpp/json/json.h>
 #include "ProxyClient.hpp"
 #include "Logger.hpp"
 
@@ -16,7 +17,9 @@ namespace DB {
         , mysqlSer_Port(3306)
         , mysqlUserName("root")
         , mysqlUserPasswd("Itcast66^")
-        , dbName("GY2301") {
+        , dbName("GY2301")
+        , redis_Ip("127.0.0.1")
+        , redis_Port(6379) {
         //create//
 
     }
@@ -61,6 +64,31 @@ namespace DB {
         LogInInFo ret = {"", "", false};
         ret.tel = tel;
         std::stringstream ss;
+
+        //
+        myredis_conn = std::make_unique<MyRedis>();
+        if (!myredis_conn->connect(redis_Ip, redis_Port)) {
+            LOG_DEBUG << "REDIS CONNECT FAILED!!!";
+        }
+        else {
+            if (myredis_conn->isKeyCheck(ret.tel)) {
+                std::string hrstr = myredis_conn->get(ret.tel);
+                if (!hrstr.empty()) {
+                    Json::Value val;
+                    Json::Reader read;
+                    read.parse(hrstr, val);
+                    std::string rpsw = val["password"].asString();
+                    if (rpsw.compare(pswd) == 0) {
+                        ret.name = val["name"].asString();
+                        ret.tag = true;
+                        LOG_INFO << "LOGIN......REDIS";
+                        return ret;
+                    }
+                }
+            }
+        }
+        
+        //
         ss << "select Name, Passwd from user_info where Tel = '" << tel << "';";
         if (!mysql_conn->SelectSQL(ss.str())) {
             LOG_DEBUG << "Select failed";
@@ -81,6 +109,21 @@ namespace DB {
             ret.tag = true;
         }
         mysql_conn->FreeRecordSet();
+        if (ret.tag) {
+            Json::Value user;
+            user["name"] = ret.name;
+            user["password"] = pswd;
+            
+            Json::FastWriter fw;
+            std::string str = fw.write(user);
+
+            std::stringstream ss;
+            ss << "ex " << 30 * 60;
+            LOG_INFO << "SET REDIS" << ret.tel << " " << str;
+            str += ss.str();
+            myredis_conn->set(ret.tel, str);
+        }
+        LOG_INFO << "LOGIN......MYSQL";
         return ret;
     }
 
