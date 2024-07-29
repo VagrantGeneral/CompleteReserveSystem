@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/hankangkai/Project2/./include/log -I/home/hankangkai/Project2/./include/net -I/home/hankangkai/Project2/./include/db
+CXX_INCLUDES = -I/home/hankangkai/Project2/./include/log -I/home/hankangkai/Project2/./include/net -I/home/hankangkai/Project2/./include/db -I/home/hankangkai/Project2/./include
 
 CXX_FLAGS = 
 

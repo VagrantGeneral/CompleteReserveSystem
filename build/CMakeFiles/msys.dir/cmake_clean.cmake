@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "../bin/msys.pdb"
   "CMakeFiles/msys.dir/src/MainTest.cpp.o"
   "CMakeFiles/msys.dir/src/MainTest.cpp.o.d"
+  "CMakeFiles/msys.dir/src/db/MyRedis.cpp.o"
+  "CMakeFiles/msys.dir/src/db/MyRedis.cpp.o.d"
   "CMakeFiles/msys.dir/src/db/MySQLConn.cpp.o"
   "CMakeFiles/msys.dir/src/db/MySQLConn.cpp.o.d"
   "CMakeFiles/msys.dir/src/db/ProxyClient.cpp.o"

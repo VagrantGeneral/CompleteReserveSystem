@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/hankangkai/Project2/src/MainTest.cpp" "CMakeFiles/msys.dir/src/MainTest.cpp.o" "gcc" "CMakeFiles/msys.dir/src/MainTest.cpp.o.d"
+  "/home/hankangkai/Project2/src/db/MyRedis.cpp" "CMakeFiles/msys.dir/src/db/MyRedis.cpp.o" "gcc" "CMakeFiles/msys.dir/src/db/MyRedis.cpp.o.d"
   "/home/hankangkai/Project2/src/db/MySQLConn.cpp" "CMakeFiles/msys.dir/src/db/MySQLConn.cpp.o" "gcc" "CMakeFiles/msys.dir/src/db/MySQLConn.cpp.o.d"
   "/home/hankangkai/Project2/src/db/ProxyClient.cpp" "CMakeFiles/msys.dir/src/db/ProxyClient.cpp.o" "gcc" "CMakeFiles/msys.dir/src/db/ProxyClient.cpp.o.d"
   "/home/hankangkai/Project2/src/log/AppendFile.cpp" "CMakeFiles/msys.dir/src/log/AppendFile.cpp.o" "gcc" "CMakeFiles/msys.dir/src/log/AppendFile.cpp.o.d"

@@ -153,10 +153,24 @@ CMakeFiles/msys.dir/src/log/Timestamp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/msys.dir/src/log/Timestamp.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hankangkai/Project2/src/log/Timestamp.cpp -o CMakeFiles/msys.dir/src/log/Timestamp.cpp.s
 
+CMakeFiles/msys.dir/src/db/MyRedis.cpp.o: CMakeFiles/msys.dir/flags.make
+CMakeFiles/msys.dir/src/db/MyRedis.cpp.o: ../src/db/MyRedis.cpp
+CMakeFiles/msys.dir/src/db/MyRedis.cpp.o: CMakeFiles/msys.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hankangkai/Project2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/msys.dir/src/db/MyRedis.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/msys.dir/src/db/MyRedis.cpp.o -MF CMakeFiles/msys.dir/src/db/MyRedis.cpp.o.d -o CMakeFiles/msys.dir/src/db/MyRedis.cpp.o -c /home/hankangkai/Project2/src/db/MyRedis.cpp
+
+CMakeFiles/msys.dir/src/db/MyRedis.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/msys.dir/src/db/MyRedis.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hankangkai/Project2/src/db/MyRedis.cpp > CMakeFiles/msys.dir/src/db/MyRedis.cpp.i
+
+CMakeFiles/msys.dir/src/db/MyRedis.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/msys.dir/src/db/MyRedis.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hankangkai/Project2/src/db/MyRedis.cpp -o CMakeFiles/msys.dir/src/db/MyRedis.cpp.s
+
 CMakeFiles/msys.dir/src/db/MySQLConn.cpp.o: CMakeFiles/msys.dir/flags.make
 CMakeFiles/msys.dir/src/db/MySQLConn.cpp.o: ../src/db/MySQLConn.cpp
 CMakeFiles/msys.dir/src/db/MySQLConn.cpp.o: CMakeFiles/msys.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hankangkai/Project2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/msys.dir/src/db/MySQLConn.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hankangkai/Project2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/msys.dir/src/db/MySQLConn.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/msys.dir/src/db/MySQLConn.cpp.o -MF CMakeFiles/msys.dir/src/db/MySQLConn.cpp.o.d -o CMakeFiles/msys.dir/src/db/MySQLConn.cpp.o -c /home/hankangkai/Project2/src/db/MySQLConn.cpp
 
 CMakeFiles/msys.dir/src/db/MySQLConn.cpp.i: cmake_force
@@ -170,7 +184,7 @@ CMakeFiles/msys.dir/src/db/MySQLConn.cpp.s: cmake_force
 CMakeFiles/msys.dir/src/db/ProxyClient.cpp.o: CMakeFiles/msys.dir/flags.make
 CMakeFiles/msys.dir/src/db/ProxyClient.cpp.o: ../src/db/ProxyClient.cpp
 CMakeFiles/msys.dir/src/db/ProxyClient.cpp.o: CMakeFiles/msys.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hankangkai/Project2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/msys.dir/src/db/ProxyClient.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hankangkai/Project2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/msys.dir/src/db/ProxyClient.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/msys.dir/src/db/ProxyClient.cpp.o -MF CMakeFiles/msys.dir/src/db/ProxyClient.cpp.o.d -o CMakeFiles/msys.dir/src/db/ProxyClient.cpp.o -c /home/hankangkai/Project2/src/db/ProxyClient.cpp
 
 CMakeFiles/msys.dir/src/db/ProxyClient.cpp.i: cmake_force
@@ -189,6 +203,7 @@ msys_OBJECTS = \
 "CMakeFiles/msys.dir/src/log/LogMessage.cpp.o" \
 "CMakeFiles/msys.dir/src/log/Logger.cpp.o" \
 "CMakeFiles/msys.dir/src/log/Timestamp.cpp.o" \
+"CMakeFiles/msys.dir/src/db/MyRedis.cpp.o" \
 "CMakeFiles/msys.dir/src/db/MySQLConn.cpp.o" \
 "CMakeFiles/msys.dir/src/db/ProxyClient.cpp.o"
 
@@ -201,11 +216,12 @@ msys_EXTERNAL_OBJECTS =
 ../bin/msys: CMakeFiles/msys.dir/src/log/LogMessage.cpp.o
 ../bin/msys: CMakeFiles/msys.dir/src/log/Logger.cpp.o
 ../bin/msys: CMakeFiles/msys.dir/src/log/Timestamp.cpp.o
+../bin/msys: CMakeFiles/msys.dir/src/db/MyRedis.cpp.o
 ../bin/msys: CMakeFiles/msys.dir/src/db/MySQLConn.cpp.o
 ../bin/msys: CMakeFiles/msys.dir/src/db/ProxyClient.cpp.o
 ../bin/msys: CMakeFiles/msys.dir/build.make
 ../bin/msys: CMakeFiles/msys.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hankangkai/Project2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable ../bin/msys"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hankangkai/Project2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable ../bin/msys"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/msys.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

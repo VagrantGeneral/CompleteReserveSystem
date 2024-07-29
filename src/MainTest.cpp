@@ -13,6 +13,25 @@
 #include "AppendFile.hpp"
 #include "ProxyClient.hpp"
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#if 0
 std::unique_ptr<LOG::LogFile> lfile;
 
 void filewrite(const std::string& msg) {
@@ -45,8 +64,7 @@ int main() {
     return 0;
 }
 
-
-
+#endif
 
 #if 0
 static FILE* fp;

@@ -153,6 +153,30 @@ src/MainTest.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/msys.dir/build.make CMakeFiles/msys.dir/src/MainTest.cpp.s
 .PHONY : src/MainTest.cpp.s
 
+src/db/MyRedis.o: src/db/MyRedis.cpp.o
+.PHONY : src/db/MyRedis.o
+
+# target to build an object file
+src/db/MyRedis.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/msys.dir/build.make CMakeFiles/msys.dir/src/db/MyRedis.cpp.o
+.PHONY : src/db/MyRedis.cpp.o
+
+src/db/MyRedis.i: src/db/MyRedis.cpp.i
+.PHONY : src/db/MyRedis.i
+
+# target to preprocess a source file
+src/db/MyRedis.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/msys.dir/build.make CMakeFiles/msys.dir/src/db/MyRedis.cpp.i
+.PHONY : src/db/MyRedis.cpp.i
+
+src/db/MyRedis.s: src/db/MyRedis.cpp.s
+.PHONY : src/db/MyRedis.s
+
+# target to generate assembly for a file
+src/db/MyRedis.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/msys.dir/build.make CMakeFiles/msys.dir/src/db/MyRedis.cpp.s
+.PHONY : src/db/MyRedis.cpp.s
+
 src/db/MySQLConn.o: src/db/MySQLConn.cpp.o
 .PHONY : src/db/MySQLConn.o
 
@@ -333,6 +357,9 @@ help:
 	@echo "... src/MainTest.o"
 	@echo "... src/MainTest.i"
 	@echo "... src/MainTest.s"
+	@echo "... src/db/MyRedis.o"
+	@echo "... src/db/MyRedis.i"
+	@echo "... src/db/MyRedis.s"
 	@echo "... src/db/MySQLConn.o"
 	@echo "... src/db/MySQLConn.i"
 	@echo "... src/db/MySQLConn.s"

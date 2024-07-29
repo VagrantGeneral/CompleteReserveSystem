@@ -81,12 +81,12 @@ clean: CMakeFiles/msys.dir/clean
 CMakeFiles/msys.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/msys.dir/build.make CMakeFiles/msys.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/msys.dir/build.make CMakeFiles/msys.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hankangkai/Project2/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target msys"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hankangkai/Project2/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Built target msys"
 .PHONY : CMakeFiles/msys.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/msys.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hankangkai/Project2/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hankangkai/Project2/build/CMakeFiles 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/msys.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hankangkai/Project2/build/CMakeFiles 0
 .PHONY : CMakeFiles/msys.dir/rule
