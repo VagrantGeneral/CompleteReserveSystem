@@ -26,15 +26,16 @@ project(MySystem)
 # log
 include_directories(${PROJECT_SOURCE_DIR}/LogSys/include)
 include_directories(${PROJECT_SOURCE_DIR}/LogSys/include/log)
-aux_source_directory(./LogSys/src/log GLSRC_FILE)
+aux_source_directory(${PROJECT_SOURCE_DIR}/LogSys/src/log/ GLSRC_FILE)
+
 
 # tool/ProgressBar
 include_directories(${PROJECT_SOURCE_DIR}/Tool/ProgressBar)
 include_directories(${PROJECT_SOURCE_DIR}/Tool/ProgressBar/include)
 include_directories(${PROJECT_SOURCE_DIR}/Tool/ProgressBar/include/details)
 include_directories(${PROJECT_SOURCE_DIR}/Tool/AllTool)
-aux_source_directory(./Tool/ProgressBar/include GPBSRC_FILE)
-aux_source_directory(./Tool/AllTool GPBSRC_FILE)
+aux_source_directory(${PROJECT_SOURCE_DIR}/Tool/ProgressBar/include GPBSRC_FILE)
+aux_source_directory(${PROJECT_SOURCE_DIR}/Tool/AllTool GPBSRC_FILE)
 
 # another
 

@@ -5,8 +5,6 @@
 #include <sys/socket.h>
 #include <netinet/in.h>
 
-
-
 namespace CLI {
     class SocketClient {
     private:
@@ -24,11 +22,11 @@ namespace CLI {
         ~SocketClient();
 
     public:
-        bool connect();
+        bool Connect();
 
-        int sendToServer(const std::string& str);
+        int SendToServer(const std::string& str);
 
-        std::string read() const;
+        std::string ReadFromServer() const;
 
 
     };

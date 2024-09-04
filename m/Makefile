@@ -129,29 +129,29 @@ msys/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/msys.dir/build.make CMakeFiles/msys.dir/build
 .PHONY : msys/fast
 
-main.o: main.cpp.o
-.PHONY : main.o
+m_text.o: m_text.cpp.o
+.PHONY : m_text.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/msys.dir/build.make CMakeFiles/msys.dir/main.cpp.o
-.PHONY : main.cpp.o
+m_text.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/msys.dir/build.make CMakeFiles/msys.dir/m_text.cpp.o
+.PHONY : m_text.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+m_text.i: m_text.cpp.i
+.PHONY : m_text.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/msys.dir/build.make CMakeFiles/msys.dir/main.cpp.i
-.PHONY : main.cpp.i
+m_text.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/msys.dir/build.make CMakeFiles/msys.dir/m_text.cpp.i
+.PHONY : m_text.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+m_text.s: m_text.cpp.s
+.PHONY : m_text.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/msys.dir/build.make CMakeFiles/msys.dir/main.cpp.s
-.PHONY : main.cpp.s
+m_text.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/msys.dir/build.make CMakeFiles/msys.dir/m_text.cpp.s
+.PHONY : m_text.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... msys"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... m_text.o"
+	@echo "... m_text.i"
+	@echo "... m_text.s"
 .PHONY : help
 
 

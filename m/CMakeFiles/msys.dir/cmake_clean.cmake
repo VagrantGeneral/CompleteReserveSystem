@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/msys.dir/main.cpp.o"
-  "CMakeFiles/msys.dir/main.cpp.o.d"
+  "CMakeFiles/msys.dir/m_text.cpp.o"
+  "CMakeFiles/msys.dir/m_text.cpp.o.d"
   "msys"
   "msys.pdb"
 )

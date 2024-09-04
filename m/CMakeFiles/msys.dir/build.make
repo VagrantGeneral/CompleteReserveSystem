@@ -69,28 +69,28 @@ include CMakeFiles/msys.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/msys.dir/flags.make
 
-CMakeFiles/msys.dir/main.cpp.o: CMakeFiles/msys.dir/flags.make
-CMakeFiles/msys.dir/main.cpp.o: ../main.cpp
-CMakeFiles/msys.dir/main.cpp.o: CMakeFiles/msys.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hankangkai/Project2/m/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/msys.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/msys.dir/main.cpp.o -MF CMakeFiles/msys.dir/main.cpp.o.d -o CMakeFiles/msys.dir/main.cpp.o -c /home/hankangkai/Project2/main.cpp
+CMakeFiles/msys.dir/m_text.cpp.o: CMakeFiles/msys.dir/flags.make
+CMakeFiles/msys.dir/m_text.cpp.o: ../m_text.cpp
+CMakeFiles/msys.dir/m_text.cpp.o: CMakeFiles/msys.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hankangkai/Project2/m/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/msys.dir/m_text.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/msys.dir/m_text.cpp.o -MF CMakeFiles/msys.dir/m_text.cpp.o.d -o CMakeFiles/msys.dir/m_text.cpp.o -c /home/hankangkai/Project2/m_text.cpp
 
-CMakeFiles/msys.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/msys.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hankangkai/Project2/main.cpp > CMakeFiles/msys.dir/main.cpp.i
+CMakeFiles/msys.dir/m_text.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/msys.dir/m_text.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hankangkai/Project2/m_text.cpp > CMakeFiles/msys.dir/m_text.cpp.i
 
-CMakeFiles/msys.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/msys.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hankangkai/Project2/main.cpp -o CMakeFiles/msys.dir/main.cpp.s
+CMakeFiles/msys.dir/m_text.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/msys.dir/m_text.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hankangkai/Project2/m_text.cpp -o CMakeFiles/msys.dir/m_text.cpp.s
 
 # Object files for target msys
 msys_OBJECTS = \
-"CMakeFiles/msys.dir/main.cpp.o"
+"CMakeFiles/msys.dir/m_text.cpp.o"
 
 # External object files for target msys
 msys_EXTERNAL_OBJECTS =
 
-msys: CMakeFiles/msys.dir/main.cpp.o
+msys: CMakeFiles/msys.dir/m_text.cpp.o
 msys: CMakeFiles/msys.dir/build.make
 msys: CMakeFiles/msys.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hankangkai/Project2/m/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable msys"

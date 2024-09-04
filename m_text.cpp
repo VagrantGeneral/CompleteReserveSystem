@@ -16,7 +16,7 @@ int main() {
         option::Lead{"■"},
         option::Remainder{" "},
         option::End{" ]"},
-        option::ForegroundColor{indicators::Color::yellow},
+        option::ForegroundColor{indicators::Color::white},
         option::FontStyles{std::vector<indicators::FontStyle>{indicators::FontStyle::bold}}
     };
 
@@ -57,4 +57,16 @@ int main() {
     thread.join();
   }
   ProgressBar_Load();
+
+  ProgressBar_Num();
+
+  // std::cout << "■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■" << std::endl;
+  // std::cout << "■                                                  ■" << std::endl;
+  // std::cout << "■                                                  ■" << std::endl;
+  // std::cout << "■                                                  ■" << std::endl;
+  // std::cout << "■                                                  ■" << std::endl;
+  // std::cout << "■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■" << std::endl;
+
+  ProgressBar_Back();
+  
 }

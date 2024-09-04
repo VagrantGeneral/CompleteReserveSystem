@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/msys.dir/main.cpp.o -o msys  -lpthread 
+/usr/bin/c++ CMakeFiles/msys.dir/m_text.cpp.o -o msys  -lpthread 

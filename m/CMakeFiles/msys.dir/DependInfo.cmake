@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/hankangkai/Project2/main.cpp" "CMakeFiles/msys.dir/main.cpp.o" "gcc" "CMakeFiles/msys.dir/main.cpp.o.d"
+  "/home/hankangkai/Project2/m_text.cpp" "CMakeFiles/msys.dir/m_text.cpp.o" "gcc" "CMakeFiles/msys.dir/m_text.cpp.o.d"
   )
 
 # Targets to which this target links.
