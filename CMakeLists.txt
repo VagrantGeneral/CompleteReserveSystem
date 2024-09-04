@@ -28,6 +28,11 @@ include_directories(${PROJECT_SOURCE_DIR}/LogSys/include)
 include_directories(${PROJECT_SOURCE_DIR}/LogSys/include/log)
 aux_source_directory(${PROJECT_SOURCE_DIR}/LogSys/src/log/ GLSRC_FILE)
 
+# db
+include_directories(${PROJECT_SOURCE_DIR}/DBSys/include)
+include_directories(${PROJECT_SOURCE_DIR}/DBSys/include/db)
+aux_source_directory(${PROJECT_SOURCE_DIR}/DBSys/src/db/ GDBSRC_FILE)
+
 
 # tool/ProgressBar
 include_directories(${PROJECT_SOURCE_DIR}/Tool/ProgressBar)

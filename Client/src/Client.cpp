@@ -22,7 +22,7 @@ void fileflush() {
 int main() {
     ProgressBar_Load("System Load");
 
-    lfile.reset(new LOG::LogFile("/home/hankangkai/Project2/log/ClientLog"));
+    lfile.reset(new LOG::LogFile("/home/hankangkai/Project2/logfile/ClientLog"));
 
     LOG::Logger::setOutput(filewrite);
     LOG::Logger::setFlush(fileflush);

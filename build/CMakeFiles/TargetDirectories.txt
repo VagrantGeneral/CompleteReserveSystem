@@ -1,7 +1,0 @@
-/home/hankangkai/Project2/build/CMakeFiles/edit_cache.dir
-/home/hankangkai/Project2/build/CMakeFiles/rebuild_cache.dir
-/home/hankangkai/Project2/build/Client/CMakeFiles/client.dir
-/home/hankangkai/Project2/build/Client/CMakeFiles/edit_cache.dir
-/home/hankangkai/Project2/build/Client/CMakeFiles/rebuild_cache.dir
-/home/hankangkai/Project2/build/Server/CMakeFiles/edit_cache.dir
-/home/hankangkai/Project2/build/Server/CMakeFiles/rebuild_cache.dir

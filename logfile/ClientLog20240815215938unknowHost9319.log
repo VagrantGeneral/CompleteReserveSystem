@@ -1,0 +1,4 @@
+[2024/08/15-21:59:38.240525Z] DEBUG Client.cpp main 32  : main begin ... : 
+[2024/08/15-21:59:38.240807Z] ERROR SocketClient.cpp Connect 37  : Connect Failed!!! : 
+[2024/08/15-21:59:38.240850Z] DEBUG CUser.cpp ConnectToSer 26  : Connect ser Failed!!! : 127.0.0.1 : 8080 : 
+[2024/08/15-21:59:38.240877Z] FATAL Client.cpp main 36  : connect Ser error  : 
