@@ -7,6 +7,9 @@
 #include <string.h>
 #include <iostream>
 #include "EventObj.hpp"
+#include "Logger.hpp"
+#include "MyEvent.hpp"
+#include "EventRW.hpp"
 
 namespace SER {
     class MyEvent;

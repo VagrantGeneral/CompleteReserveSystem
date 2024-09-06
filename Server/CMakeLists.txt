@@ -7,8 +7,10 @@ include_directories(${PROJECT_SOURCE_DIR}/include)
 aux_source_directory(./src SRC_FILE)
 
 
-add_executable(server ${SRC_FILE} ${GPBSRC_FILE} ${GLSRC_FILE} )
+add_executable(server ${SRC_FILE} ${GPBSRC_FILE} ${GLSRC_FILE} ${GDBSRC_FILE})
 
 target_link_libraries(server libjsoncpp.so)
 target_link_libraries(server libpthread.so)
 target_link_libraries(server -levent)
+target_link_libraries(server libhiredis.so) 
+target_link_libraries(server libmysqlclient.so)

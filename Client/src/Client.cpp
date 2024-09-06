@@ -1,4 +1,3 @@
-
 #include <string>
 #include "Logger.hpp"
 //#include "AsyncLogging.hpp"
@@ -20,9 +19,9 @@ void fileflush() {
 }
 
 int main() {
-    ProgressBar_Load("System Load");
+    ProgressBar_Load("Client Load");
 
-    lfile.reset(new LOG::LogFile("/home/hankangkai/Project2/logfile/ClientLog"));
+    lfile.reset(new LOG::LogFile("/home/hankangkai/Project2/logfile/ClientLog/ClientLog"));
 
     LOG::Logger::setOutput(filewrite);
     LOG::Logger::setFlush(fileflush);
