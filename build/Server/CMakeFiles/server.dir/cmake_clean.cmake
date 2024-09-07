@@ -1,12 +1,6 @@
 file(REMOVE_RECURSE
   "../../Server/bin/server"
   "../../Server/bin/server.pdb"
-  "CMakeFiles/server.dir/__/DBSys/src/db/MyRedis.cpp.o"
-  "CMakeFiles/server.dir/__/DBSys/src/db/MyRedis.cpp.o.d"
-  "CMakeFiles/server.dir/__/DBSys/src/db/MySQLConn.cpp.o"
-  "CMakeFiles/server.dir/__/DBSys/src/db/MySQLConn.cpp.o.d"
-  "CMakeFiles/server.dir/__/DBSys/src/db/ProxyClient.cpp.o"
-  "CMakeFiles/server.dir/__/DBSys/src/db/ProxyClient.cpp.o.d"
   "CMakeFiles/server.dir/__/LogSys/src/log/AppendFile.cpp.o"
   "CMakeFiles/server.dir/__/LogSys/src/log/AppendFile.cpp.o.d"
   "CMakeFiles/server.dir/__/LogSys/src/log/LogFile.cpp.o"

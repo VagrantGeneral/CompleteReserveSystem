@@ -142,6 +142,19 @@ server/fast:
 	$(MAKE) $(MAKESILENT) -f Server/CMakeFiles/server.dir/build.make Server/CMakeFiles/server.dir/build
 .PHONY : server/fast
 
+#=============================================================================
+# Target rules for targets named server2
+
+# Build rule for target.
+server2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 server2
+.PHONY : server2
+
+# fast build rule for target.
+server2/fast:
+	$(MAKE) $(MAKESILENT) -f Server2/CMakeFiles/server2.dir/build.make Server2/CMakeFiles/server2.dir/build
+.PHONY : server2/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -152,6 +165,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... client"
 	@echo "... server"
+	@echo "... server2"
 .PHONY : help
 
 

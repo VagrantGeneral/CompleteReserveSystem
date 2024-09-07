@@ -130,78 +130,6 @@ client/fast:
 	cd /home/hankangkai/Project2/build && $(MAKE) $(MAKESILENT) -f Client/CMakeFiles/client.dir/build.make Client/CMakeFiles/client.dir/build
 .PHONY : client/fast
 
-__/DBSys/src/db/MyRedis.o: __/DBSys/src/db/MyRedis.cpp.o
-.PHONY : __/DBSys/src/db/MyRedis.o
-
-# target to build an object file
-__/DBSys/src/db/MyRedis.cpp.o:
-	cd /home/hankangkai/Project2/build && $(MAKE) $(MAKESILENT) -f Client/CMakeFiles/client.dir/build.make Client/CMakeFiles/client.dir/__/DBSys/src/db/MyRedis.cpp.o
-.PHONY : __/DBSys/src/db/MyRedis.cpp.o
-
-__/DBSys/src/db/MyRedis.i: __/DBSys/src/db/MyRedis.cpp.i
-.PHONY : __/DBSys/src/db/MyRedis.i
-
-# target to preprocess a source file
-__/DBSys/src/db/MyRedis.cpp.i:
-	cd /home/hankangkai/Project2/build && $(MAKE) $(MAKESILENT) -f Client/CMakeFiles/client.dir/build.make Client/CMakeFiles/client.dir/__/DBSys/src/db/MyRedis.cpp.i
-.PHONY : __/DBSys/src/db/MyRedis.cpp.i
-
-__/DBSys/src/db/MyRedis.s: __/DBSys/src/db/MyRedis.cpp.s
-.PHONY : __/DBSys/src/db/MyRedis.s
-
-# target to generate assembly for a file
-__/DBSys/src/db/MyRedis.cpp.s:
-	cd /home/hankangkai/Project2/build && $(MAKE) $(MAKESILENT) -f Client/CMakeFiles/client.dir/build.make Client/CMakeFiles/client.dir/__/DBSys/src/db/MyRedis.cpp.s
-.PHONY : __/DBSys/src/db/MyRedis.cpp.s
-
-__/DBSys/src/db/MySQLConn.o: __/DBSys/src/db/MySQLConn.cpp.o
-.PHONY : __/DBSys/src/db/MySQLConn.o
-
-# target to build an object file
-__/DBSys/src/db/MySQLConn.cpp.o:
-	cd /home/hankangkai/Project2/build && $(MAKE) $(MAKESILENT) -f Client/CMakeFiles/client.dir/build.make Client/CMakeFiles/client.dir/__/DBSys/src/db/MySQLConn.cpp.o
-.PHONY : __/DBSys/src/db/MySQLConn.cpp.o
-
-__/DBSys/src/db/MySQLConn.i: __/DBSys/src/db/MySQLConn.cpp.i
-.PHONY : __/DBSys/src/db/MySQLConn.i
-
-# target to preprocess a source file
-__/DBSys/src/db/MySQLConn.cpp.i:
-	cd /home/hankangkai/Project2/build && $(MAKE) $(MAKESILENT) -f Client/CMakeFiles/client.dir/build.make Client/CMakeFiles/client.dir/__/DBSys/src/db/MySQLConn.cpp.i
-.PHONY : __/DBSys/src/db/MySQLConn.cpp.i
-
-__/DBSys/src/db/MySQLConn.s: __/DBSys/src/db/MySQLConn.cpp.s
-.PHONY : __/DBSys/src/db/MySQLConn.s
-
-# target to generate assembly for a file
-__/DBSys/src/db/MySQLConn.cpp.s:
-	cd /home/hankangkai/Project2/build && $(MAKE) $(MAKESILENT) -f Client/CMakeFiles/client.dir/build.make Client/CMakeFiles/client.dir/__/DBSys/src/db/MySQLConn.cpp.s
-.PHONY : __/DBSys/src/db/MySQLConn.cpp.s
-
-__/DBSys/src/db/ProxyClient.o: __/DBSys/src/db/ProxyClient.cpp.o
-.PHONY : __/DBSys/src/db/ProxyClient.o
-
-# target to build an object file
-__/DBSys/src/db/ProxyClient.cpp.o:
-	cd /home/hankangkai/Project2/build && $(MAKE) $(MAKESILENT) -f Client/CMakeFiles/client.dir/build.make Client/CMakeFiles/client.dir/__/DBSys/src/db/ProxyClient.cpp.o
-.PHONY : __/DBSys/src/db/ProxyClient.cpp.o
-
-__/DBSys/src/db/ProxyClient.i: __/DBSys/src/db/ProxyClient.cpp.i
-.PHONY : __/DBSys/src/db/ProxyClient.i
-
-# target to preprocess a source file
-__/DBSys/src/db/ProxyClient.cpp.i:
-	cd /home/hankangkai/Project2/build && $(MAKE) $(MAKESILENT) -f Client/CMakeFiles/client.dir/build.make Client/CMakeFiles/client.dir/__/DBSys/src/db/ProxyClient.cpp.i
-.PHONY : __/DBSys/src/db/ProxyClient.cpp.i
-
-__/DBSys/src/db/ProxyClient.s: __/DBSys/src/db/ProxyClient.cpp.s
-.PHONY : __/DBSys/src/db/ProxyClient.s
-
-# target to generate assembly for a file
-__/DBSys/src/db/ProxyClient.cpp.s:
-	cd /home/hankangkai/Project2/build && $(MAKE) $(MAKESILENT) -f Client/CMakeFiles/client.dir/build.make Client/CMakeFiles/client.dir/__/DBSys/src/db/ProxyClient.cpp.s
-.PHONY : __/DBSys/src/db/ProxyClient.cpp.s
-
 __/LogSys/src/log/AppendFile.o: __/LogSys/src/log/AppendFile.cpp.o
 .PHONY : __/LogSys/src/log/AppendFile.o
 
@@ -403,15 +331,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... client"
-	@echo "... __/DBSys/src/db/MyRedis.o"
-	@echo "... __/DBSys/src/db/MyRedis.i"
-	@echo "... __/DBSys/src/db/MyRedis.s"
-	@echo "... __/DBSys/src/db/MySQLConn.o"
-	@echo "... __/DBSys/src/db/MySQLConn.i"
-	@echo "... __/DBSys/src/db/MySQLConn.s"
-	@echo "... __/DBSys/src/db/ProxyClient.o"
-	@echo "... __/DBSys/src/db/ProxyClient.i"
-	@echo "... __/DBSys/src/db/ProxyClient.s"
 	@echo "... __/LogSys/src/log/AppendFile.o"
 	@echo "... __/LogSys/src/log/AppendFile.i"
 	@echo "... __/LogSys/src/log/AppendFile.s"

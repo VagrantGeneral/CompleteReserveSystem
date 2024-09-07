@@ -8,9 +8,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/hankangkai/Project2/DBSys/src/db/MyRedis.cpp" "Server/CMakeFiles/server.dir/__/DBSys/src/db/MyRedis.cpp.o" "gcc" "Server/CMakeFiles/server.dir/__/DBSys/src/db/MyRedis.cpp.o.d"
-  "/home/hankangkai/Project2/DBSys/src/db/MySQLConn.cpp" "Server/CMakeFiles/server.dir/__/DBSys/src/db/MySQLConn.cpp.o" "gcc" "Server/CMakeFiles/server.dir/__/DBSys/src/db/MySQLConn.cpp.o.d"
-  "/home/hankangkai/Project2/DBSys/src/db/ProxyClient.cpp" "Server/CMakeFiles/server.dir/__/DBSys/src/db/ProxyClient.cpp.o" "gcc" "Server/CMakeFiles/server.dir/__/DBSys/src/db/ProxyClient.cpp.o.d"
   "/home/hankangkai/Project2/LogSys/src/log/AppendFile.cpp" "Server/CMakeFiles/server.dir/__/LogSys/src/log/AppendFile.cpp.o" "gcc" "Server/CMakeFiles/server.dir/__/LogSys/src/log/AppendFile.cpp.o.d"
   "/home/hankangkai/Project2/LogSys/src/log/LogFile.cpp" "Server/CMakeFiles/server.dir/__/LogSys/src/log/LogFile.cpp.o" "gcc" "Server/CMakeFiles/server.dir/__/LogSys/src/log/LogFile.cpp.o.d"
   "/home/hankangkai/Project2/LogSys/src/log/LogMessage.cpp" "Server/CMakeFiles/server.dir/__/LogSys/src/log/LogMessage.cpp.o" "gcc" "Server/CMakeFiles/server.dir/__/LogSys/src/log/LogMessage.cpp.o.d"

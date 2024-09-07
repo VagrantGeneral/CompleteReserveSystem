@@ -181,48 +181,6 @@ Client/CMakeFiles/client.dir/__/LogSys/src/log/Timestamp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/__/LogSys/src/log/Timestamp.cpp.s"
 	cd /home/hankangkai/Project2/build/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hankangkai/Project2/LogSys/src/log/Timestamp.cpp -o CMakeFiles/client.dir/__/LogSys/src/log/Timestamp.cpp.s
 
-Client/CMakeFiles/client.dir/__/DBSys/src/db/MyRedis.cpp.o: Client/CMakeFiles/client.dir/flags.make
-Client/CMakeFiles/client.dir/__/DBSys/src/db/MyRedis.cpp.o: ../DBSys/src/db/MyRedis.cpp
-Client/CMakeFiles/client.dir/__/DBSys/src/db/MyRedis.cpp.o: Client/CMakeFiles/client.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hankangkai/Project2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object Client/CMakeFiles/client.dir/__/DBSys/src/db/MyRedis.cpp.o"
-	cd /home/hankangkai/Project2/build/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Client/CMakeFiles/client.dir/__/DBSys/src/db/MyRedis.cpp.o -MF CMakeFiles/client.dir/__/DBSys/src/db/MyRedis.cpp.o.d -o CMakeFiles/client.dir/__/DBSys/src/db/MyRedis.cpp.o -c /home/hankangkai/Project2/DBSys/src/db/MyRedis.cpp
-
-Client/CMakeFiles/client.dir/__/DBSys/src/db/MyRedis.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/__/DBSys/src/db/MyRedis.cpp.i"
-	cd /home/hankangkai/Project2/build/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hankangkai/Project2/DBSys/src/db/MyRedis.cpp > CMakeFiles/client.dir/__/DBSys/src/db/MyRedis.cpp.i
-
-Client/CMakeFiles/client.dir/__/DBSys/src/db/MyRedis.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/__/DBSys/src/db/MyRedis.cpp.s"
-	cd /home/hankangkai/Project2/build/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hankangkai/Project2/DBSys/src/db/MyRedis.cpp -o CMakeFiles/client.dir/__/DBSys/src/db/MyRedis.cpp.s
-
-Client/CMakeFiles/client.dir/__/DBSys/src/db/MySQLConn.cpp.o: Client/CMakeFiles/client.dir/flags.make
-Client/CMakeFiles/client.dir/__/DBSys/src/db/MySQLConn.cpp.o: ../DBSys/src/db/MySQLConn.cpp
-Client/CMakeFiles/client.dir/__/DBSys/src/db/MySQLConn.cpp.o: Client/CMakeFiles/client.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hankangkai/Project2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object Client/CMakeFiles/client.dir/__/DBSys/src/db/MySQLConn.cpp.o"
-	cd /home/hankangkai/Project2/build/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Client/CMakeFiles/client.dir/__/DBSys/src/db/MySQLConn.cpp.o -MF CMakeFiles/client.dir/__/DBSys/src/db/MySQLConn.cpp.o.d -o CMakeFiles/client.dir/__/DBSys/src/db/MySQLConn.cpp.o -c /home/hankangkai/Project2/DBSys/src/db/MySQLConn.cpp
-
-Client/CMakeFiles/client.dir/__/DBSys/src/db/MySQLConn.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/__/DBSys/src/db/MySQLConn.cpp.i"
-	cd /home/hankangkai/Project2/build/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hankangkai/Project2/DBSys/src/db/MySQLConn.cpp > CMakeFiles/client.dir/__/DBSys/src/db/MySQLConn.cpp.i
-
-Client/CMakeFiles/client.dir/__/DBSys/src/db/MySQLConn.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/__/DBSys/src/db/MySQLConn.cpp.s"
-	cd /home/hankangkai/Project2/build/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hankangkai/Project2/DBSys/src/db/MySQLConn.cpp -o CMakeFiles/client.dir/__/DBSys/src/db/MySQLConn.cpp.s
-
-Client/CMakeFiles/client.dir/__/DBSys/src/db/ProxyClient.cpp.o: Client/CMakeFiles/client.dir/flags.make
-Client/CMakeFiles/client.dir/__/DBSys/src/db/ProxyClient.cpp.o: ../DBSys/src/db/ProxyClient.cpp
-Client/CMakeFiles/client.dir/__/DBSys/src/db/ProxyClient.cpp.o: Client/CMakeFiles/client.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hankangkai/Project2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object Client/CMakeFiles/client.dir/__/DBSys/src/db/ProxyClient.cpp.o"
-	cd /home/hankangkai/Project2/build/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Client/CMakeFiles/client.dir/__/DBSys/src/db/ProxyClient.cpp.o -MF CMakeFiles/client.dir/__/DBSys/src/db/ProxyClient.cpp.o.d -o CMakeFiles/client.dir/__/DBSys/src/db/ProxyClient.cpp.o -c /home/hankangkai/Project2/DBSys/src/db/ProxyClient.cpp
-
-Client/CMakeFiles/client.dir/__/DBSys/src/db/ProxyClient.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/__/DBSys/src/db/ProxyClient.cpp.i"
-	cd /home/hankangkai/Project2/build/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hankangkai/Project2/DBSys/src/db/ProxyClient.cpp > CMakeFiles/client.dir/__/DBSys/src/db/ProxyClient.cpp.i
-
-Client/CMakeFiles/client.dir/__/DBSys/src/db/ProxyClient.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/__/DBSys/src/db/ProxyClient.cpp.s"
-	cd /home/hankangkai/Project2/build/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hankangkai/Project2/DBSys/src/db/ProxyClient.cpp -o CMakeFiles/client.dir/__/DBSys/src/db/ProxyClient.cpp.s
-
 # Object files for target client
 client_OBJECTS = \
 "CMakeFiles/client.dir/src/CUser.cpp.o" \
@@ -232,10 +190,7 @@ client_OBJECTS = \
 "CMakeFiles/client.dir/__/LogSys/src/log/LogFile.cpp.o" \
 "CMakeFiles/client.dir/__/LogSys/src/log/LogMessage.cpp.o" \
 "CMakeFiles/client.dir/__/LogSys/src/log/Logger.cpp.o" \
-"CMakeFiles/client.dir/__/LogSys/src/log/Timestamp.cpp.o" \
-"CMakeFiles/client.dir/__/DBSys/src/db/MyRedis.cpp.o" \
-"CMakeFiles/client.dir/__/DBSys/src/db/MySQLConn.cpp.o" \
-"CMakeFiles/client.dir/__/DBSys/src/db/ProxyClient.cpp.o"
+"CMakeFiles/client.dir/__/LogSys/src/log/Timestamp.cpp.o"
 
 # External object files for target client
 client_EXTERNAL_OBJECTS =
@@ -248,12 +203,9 @@ client_EXTERNAL_OBJECTS =
 ../Client/bin/client: Client/CMakeFiles/client.dir/__/LogSys/src/log/LogMessage.cpp.o
 ../Client/bin/client: Client/CMakeFiles/client.dir/__/LogSys/src/log/Logger.cpp.o
 ../Client/bin/client: Client/CMakeFiles/client.dir/__/LogSys/src/log/Timestamp.cpp.o
-../Client/bin/client: Client/CMakeFiles/client.dir/__/DBSys/src/db/MyRedis.cpp.o
-../Client/bin/client: Client/CMakeFiles/client.dir/__/DBSys/src/db/MySQLConn.cpp.o
-../Client/bin/client: Client/CMakeFiles/client.dir/__/DBSys/src/db/ProxyClient.cpp.o
 ../Client/bin/client: Client/CMakeFiles/client.dir/build.make
 ../Client/bin/client: Client/CMakeFiles/client.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hankangkai/Project2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable ../../Client/bin/client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hankangkai/Project2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable ../../Client/bin/client"
 	cd /home/hankangkai/Project2/build/Client && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/client.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

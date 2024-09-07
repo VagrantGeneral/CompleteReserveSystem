@@ -10,6 +10,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../CMakeLists.txt"
   "../Client/CMakeLists.txt"
   "../Server/CMakeLists.txt"
+  "../Server2/CMakeLists.txt"
   "CMakeFiles/3.23.0/CMakeCCompiler.cmake"
   "CMakeFiles/3.23.0/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.23.0/CMakeSystem.cmake"
@@ -122,10 +123,12 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "Client/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Server/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Server2/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "Client/CMakeFiles/client.dir/DependInfo.cmake"
   "Server/CMakeFiles/server.dir/DependInfo.cmake"
+  "Server2/CMakeFiles/server2.dir/DependInfo.cmake"
   )
