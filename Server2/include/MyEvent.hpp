@@ -16,7 +16,7 @@
 namespace SER {
     class Acceptor;
     
-    //class EventRW;
+    class EventRW;
 
     class MyEventLoop {
     protected:

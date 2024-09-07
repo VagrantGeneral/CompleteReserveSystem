@@ -8,7 +8,7 @@
 #include <iostream>
 #include "EventObj.hpp"
 #include "Logger.hpp"
-//#include "MyEvent.hpp"
+#include "MyEvent.hpp"
 
 namespace SER {
     class MyEventLoop;

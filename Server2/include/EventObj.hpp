@@ -3,7 +3,7 @@
 #include <event.h>
 #include <unistd.h>
 #include "Logger.hpp"
-#include "MyEvent.hpp"
+//#include "MyEvent.hpp"
 
 namespace SER {
     class MyEventLoop;

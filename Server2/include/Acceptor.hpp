@@ -8,11 +8,11 @@
 #include <iostream>
 #include "EventObj.hpp"
 #include "Logger.hpp"
-//#include "MyEvent.hpp"
+#include "MyEvent.hpp"
 #include "EventRW.hpp"
 
 namespace SER {
-    class MyEventLoop;
+    //class MyEventLoop;
 
     class Acceptor : public EventObj {
     private:

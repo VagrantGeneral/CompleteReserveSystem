@@ -191,6 +191,7 @@ namespace SER {
         , m_accept(nullptr)
         , eventrws{} {
         /* create */
+        std::cout << "MyEventLoop" << std::endl;
     }
 
     MyEventLoop::~MyEventLoop() {

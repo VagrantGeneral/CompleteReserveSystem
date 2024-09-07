@@ -33,17 +33,25 @@ int main( int argc, char* argv[]) {
 
     LOG::Logger::setLogLevel(LOG::LOG_LEVEL::TRACE);
 
-    LOG_INFO << "main begin ...";
+    LOG_DEBUG << "main begin ...";
     
     std::cout << "<<<<<<<<THE   SERVER   HAS   BEEN   STARTED>>>>>>>>>" << std::endl;
     /*
     std::cout << "■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■" << std::endl;
     */
-
+    // int select = 0;
+    // std::cin >> select;
+    // switch (select) {
+    //     case 0:
+    //         LOG_INFO << "exit .kkkkkkkkkkkkkkkkkk..";
+    //         ProgressBar_Back();
+    //         break;
+    // }
     const char* ip = argv[1];
     const int port = atoi(argv[2]);
     SER::MyEventLoop myevent(ip, port);
     myevent.Run();
+
 
     //ProgressBar_Back();
 
