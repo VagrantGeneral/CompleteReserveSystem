@@ -21,6 +21,9 @@ namespace SER {
             return;
         }
         LOG_INFO << "new client......";
+        
+        std::cout << "new client : fd = " << connfd << std::endl;
+
         EventRW* evrw = nullptr;
         try {
             evrw = new EventRW(connfd);
@@ -35,14 +38,6 @@ namespace SER {
             LOG_ERROR << "AddEvent error!!!";
             return;
         }
-        // struct event* ev_client = event_new(pbase, 
-        //                                     connfd,
-        //                                     EV_READ | EV_PERSIST,
-        //                                     client_callback, 
-        //                                     nullptr);
-        // event_assign(ev_client, pbase, connfd, EV_READ | V_PERSIST_)
-
-
         
     }
 }

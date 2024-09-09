@@ -48,6 +48,9 @@ aux_source_directory(${PROJECT_SOURCE_DIR}/Tool/AllTool GPBSRC_FILE)
 add_subdirectory(Client)
 add_subdirectory(Server)
 add_subdirectory(Server2)
+#add_subdirectory(Server2_dev)
+add_subdirectory(VirtualServer)
+
 
 # add_executable(msys ${GPBSRC_FILE} m_text.cpp)
 # target_link_libraries(msys libpthread.so)

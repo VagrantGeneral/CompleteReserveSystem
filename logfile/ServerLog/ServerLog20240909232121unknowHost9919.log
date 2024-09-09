@@ -1,0 +1,26 @@
+[2024/09/09-23:21:21.668539Z] INFO Server.cpp main 36  : main begin ... : 
+[2024/09/09-23:21:43.298503Z] INFO Acceptor.cpp messageCallBack 16  : accept_callback...... : 
+[2024/09/09-23:21:43.298544Z] INFO Acceptor.cpp messageCallBack 23  : new client...... : 
+[2024/09/09-23:21:47.461674Z] INFO EventRW.cpp messageCallBack 14  : EventRW StartCallBack... : 
+[2024/09/09-23:21:47.461707Z] INFO EventRW.cpp messageCallBack 35  : client :  : 8 :  :  : sssssssssssssssssssssssssssssssss
+ : 
+[2024/09/09-23:21:51.109302Z] INFO EventRW.cpp messageCallBack 14  : EventRW StartCallBack... : 
+[2024/09/09-23:21:51.109343Z] INFO EventRW.cpp messageCallBack 35  : client :  : 8 :  :  : ssssssssssssssssssssssssssssssssssssssssssssssssssssss
+ : 
+[2024/09/09-23:21:54.710176Z] INFO EventRW.cpp messageCallBack 14  : EventRW StartCallBack... : 
+[2024/09/09-23:21:54.710212Z] INFO EventRW.cpp messageCallBack 35  : client :  : 8 :  :  : jdjjdjdjdjdjdjd
+ : 
+[2024/09/09-23:22:51.103926Z] INFO Acceptor.cpp messageCallBack 16  : accept_callback...... : 
+[2024/09/09-23:22:51.103963Z] INFO Acceptor.cpp messageCallBack 23  : new client...... : 
+[2024/09/09-23:22:59.916269Z] INFO EventRW.cpp messageCallBack 14  : EventRW StartCallBack... : 
+[2024/09/09-23:22:59.916301Z] INFO EventRW.cpp messageCallBack 35  : client :  : 9 :  :  : eqwertyuioasdfghjklzxcvbnm,.
+ : 
+[2024/09/09-23:23:03.748777Z] INFO EventRW.cpp messageCallBack 14  : EventRW StartCallBack... : 
+[2024/09/09-23:23:03.748809Z] INFO EventRW.cpp messageCallBack 35  : client :  : 9 :  :  : qwertyhujikol.kijhbgvfcdfvgbhnjmk,l.
+ : 
+[2024/09/09-23:23:10.862329Z] INFO EventRW.cpp messageCallBack 14  : EventRW StartCallBack... : 
+[2024/09/09-23:23:10.862362Z] INFO EventRW.cpp messageCallBack 35  : client :  : 8 :  :  : tghnjmk,lklllllllllllllllllllllllllll
+ : 
+[2024/09/09-23:23:16.334420Z] INFO EventRW.cpp messageCallBack 14  : EventRW StartCallBack... : 
+[2024/09/09-23:23:16.334484Z] DEBUG EventRW.cpp messageCallBack 21  : client off line : 
+[2024/09/09-23:23:18.254058Z] INFO EventRW.cpp messageCallBack 14  : EventRW StartCallBack... : 

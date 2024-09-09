@@ -737,6 +737,9 @@
 		},
 		{
 			"path" : "Server2/CMakeLists.txt"
+		},
+		{
+			"path" : "VirtualServer/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

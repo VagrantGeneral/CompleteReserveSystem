@@ -33,6 +33,7 @@ namespace SER {
         }
         else {
             LOG_INFO << "client : " << m_connfd << " : " << buff;
+            std::cout << "client : " << m_connfd << " : " << buff << std::endl;
             send(m_connfd, buff, byte_read, 0);
             memset(buff, 0, byte_read);
         }

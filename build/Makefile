@@ -155,6 +155,19 @@ server2/fast:
 	$(MAKE) $(MAKESILENT) -f Server2/CMakeFiles/server2.dir/build.make Server2/CMakeFiles/server2.dir/build
 .PHONY : server2/fast
 
+#=============================================================================
+# Target rules for targets named virtualserver
+
+# Build rule for target.
+virtualserver: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 virtualserver
+.PHONY : virtualserver
+
+# fast build rule for target.
+virtualserver/fast:
+	$(MAKE) $(MAKESILENT) -f VirtualServer/CMakeFiles/virtualserver.dir/build.make VirtualServer/CMakeFiles/virtualserver.dir/build
+.PHONY : virtualserver/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -166,6 +179,7 @@ help:
 	@echo "... client"
 	@echo "... server"
 	@echo "... server2"
+	@echo "... virtualserver"
 .PHONY : help
 
 

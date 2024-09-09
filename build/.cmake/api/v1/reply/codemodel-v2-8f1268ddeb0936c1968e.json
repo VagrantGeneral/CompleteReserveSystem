@@ -10,7 +10,8 @@
 					[
 						1,
 						2,
-						3
+						3,
+						4
 					],
 					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
@@ -64,6 +65,21 @@
 					[
 						2
 					]
+				},
+				{
+					"build" : "VirtualServer",
+					"jsonFile" : "directory-VirtualServer-e793a8445cf8785e7bea.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "VirtualServer",
+					"targetIndexes" : 
+					[
+						3
+					]
 				}
 			],
 			"name" : "",
@@ -74,7 +90,8 @@
 					[
 						1,
 						2,
-						3
+						3,
+						4
 					],
 					"directoryIndexes" : 
 					[
@@ -117,6 +134,18 @@
 					[
 						2
 					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "SerTest_Vir",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
 				}
 			],
 			"targets" : 
@@ -141,6 +170,13 @@
 					"jsonFile" : "target-server2-ecb0ea215c9de0a43743.json",
 					"name" : "server2",
 					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "virtualserver::@5a43e042add273546ba2",
+					"jsonFile" : "target-virtualserver-0105eb6e4165934b8aad.json",
+					"name" : "virtualserver",
+					"projectIndex" : 4
 				}
 			]
 		}

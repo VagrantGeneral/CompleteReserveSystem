@@ -66,18 +66,21 @@ CMAKE_BINARY_DIR = /home/hankangkai/Project2/build
 all: Client/all
 all: Server/all
 all: Server2/all
+all: VirtualServer/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: Client/preinstall
 preinstall: Server/preinstall
 preinstall: Server2/preinstall
+preinstall: VirtualServer/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: Client/clean
 clean: Server/clean
 clean: Server2/clean
+clean: VirtualServer/clean
 .PHONY : clean
 
 #=============================================================================
@@ -124,6 +127,21 @@ Server2/preinstall:
 # Recursive "clean" directory target.
 Server2/clean: Server2/CMakeFiles/server2.dir/clean
 .PHONY : Server2/clean
+
+#=============================================================================
+# Directory level rules for directory VirtualServer
+
+# Recursive "all" directory target.
+VirtualServer/all: VirtualServer/CMakeFiles/virtualserver.dir/all
+.PHONY : VirtualServer/all
+
+# Recursive "preinstall" directory target.
+VirtualServer/preinstall:
+.PHONY : VirtualServer/preinstall
+
+# Recursive "clean" directory target.
+VirtualServer/clean: VirtualServer/CMakeFiles/virtualserver.dir/clean
+.PHONY : VirtualServer/clean
 
 #=============================================================================
 # Target rules for target Client/CMakeFiles/client.dir
@@ -202,6 +220,32 @@ server2: Server2/CMakeFiles/server2.dir/rule
 Server2/CMakeFiles/server2.dir/clean:
 	$(MAKE) $(MAKESILENT) -f Server2/CMakeFiles/server2.dir/build.make Server2/CMakeFiles/server2.dir/clean
 .PHONY : Server2/CMakeFiles/server2.dir/clean
+
+#=============================================================================
+# Target rules for target VirtualServer/CMakeFiles/virtualserver.dir
+
+# All Build rule for target.
+VirtualServer/CMakeFiles/virtualserver.dir/all:
+	$(MAKE) $(MAKESILENT) -f VirtualServer/CMakeFiles/virtualserver.dir/build.make VirtualServer/CMakeFiles/virtualserver.dir/depend
+	$(MAKE) $(MAKESILENT) -f VirtualServer/CMakeFiles/virtualserver.dir/build.make VirtualServer/CMakeFiles/virtualserver.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hankangkai/Project2/build/CMakeFiles --progress-num=31,32,33,34,35,36,37,38,39,40,41,42 "Built target virtualserver"
+.PHONY : VirtualServer/CMakeFiles/virtualserver.dir/all
+
+# Build rule for subdir invocation for target.
+VirtualServer/CMakeFiles/virtualserver.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hankangkai/Project2/build/CMakeFiles 12
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 VirtualServer/CMakeFiles/virtualserver.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hankangkai/Project2/build/CMakeFiles 0
+.PHONY : VirtualServer/CMakeFiles/virtualserver.dir/rule
+
+# Convenience name for target.
+virtualserver: VirtualServer/CMakeFiles/virtualserver.dir/rule
+.PHONY : virtualserver
+
+# clean rule for target.
+VirtualServer/CMakeFiles/virtualserver.dir/clean:
+	$(MAKE) $(MAKESILENT) -f VirtualServer/CMakeFiles/virtualserver.dir/build.make VirtualServer/CMakeFiles/virtualserver.dir/clean
+.PHONY : VirtualServer/CMakeFiles/virtualserver.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

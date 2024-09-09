@@ -759,7 +759,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "4"
+			"value" : "5"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -1228,6 +1228,42 @@
 			],
 			"type" : "STATIC",
 			"value" : "/home/hankangkai/Project2/Server"
+		},
+		{
+			"name" : "SerTest_Vir_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/hankangkai/Project2/build/VirtualServer"
+		},
+		{
+			"name" : "SerTest_Vir_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "SerTest_Vir_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/hankangkai/Project2/VirtualServer"
 		},
 		{
 			"name" : "cliTest_BINARY_DIR",

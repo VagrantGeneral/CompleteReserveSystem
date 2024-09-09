@@ -9,3 +9,6 @@
 /home/hankangkai/Project2/build/Server2/CMakeFiles/server2.dir
 /home/hankangkai/Project2/build/Server2/CMakeFiles/edit_cache.dir
 /home/hankangkai/Project2/build/Server2/CMakeFiles/rebuild_cache.dir
+/home/hankangkai/Project2/build/VirtualServer/CMakeFiles/virtualserver.dir
+/home/hankangkai/Project2/build/VirtualServer/CMakeFiles/edit_cache.dir
+/home/hankangkai/Project2/build/VirtualServer/CMakeFiles/rebuild_cache.dir
